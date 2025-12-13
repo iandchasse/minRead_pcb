@@ -1,0 +1,1071 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9dcbbcfc-35f7-4a0a-a05a-c896e15ea037")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 76.2 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03c81866-ba61-4328-87f8-d8c08935d7bb")
+	)
+	(junction
+		(at 76.2 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c7adfe8-8466-43bd-8c0c-aadbe7695130")
+	)
+	(junction
+		(at 76.2 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f113781-a0ba-4e50-8360-43b49ce03749")
+	)
+	(junction
+		(at 133.35 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fb93f17-35fa-422a-9077-489a6e92e13c")
+	)
+	(junction
+		(at 76.2 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac385b58-ab52-4f1a-b2bd-ebaf95504ff3")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026a34ef-58fd-477e-b1f0-0cef9567650b")
+	)
+	(wire
+		(pts
+			(xy 193.04 88.9) (xy 193.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e46117-a33e-4ced-897d-809a06b4085e")
+	)
+	(wire
+		(pts
+			(xy 134.62 137.16) (xy 76.2 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066c5393-361f-40c9-82b2-86222a8ac36e")
+	)
+	(wire
+		(pts
+			(xy 134.62 123.19) (xy 76.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090de2bf-7967-40da-aae5-05fdb2b32ce7")
+	)
+	(wire
+		(pts
+			(xy 147.32 88.9) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf62562-2ded-44d7-81d4-4dca1d20c679")
+	)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 199.39 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d0c701-f709-4c3d-bb5d-11f8ede8c7b9")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 76.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19700c65-3e21-4108-b32d-fd5fc68a2f2c")
+	)
+	(wire
+		(pts
+			(xy 203.2 137.16) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a9c6d1-cd01-4d92-901f-eb709823d0bd")
+	)
+	(wire
+		(pts
+			(xy 144.78 101.6) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa2804a-47f6-4787-a738-4b657b52da61")
+	)
+	(wire
+		(pts
+			(xy 146.05 78.74) (xy 207.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3113ab-3674-4738-a315-feb0ceafd5cb")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8ded27-6a7e-4d4a-9efb-a34d175125f1")
+	)
+	(wire
+		(pts
+			(xy 76.2 123.19) (xy 76.2 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9d7289-0754-4f51-b090-5525f49eee9a")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a70af59-f601-4b21-afa4-f7f67f4eaf88")
+	)
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 76.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df20f7b-b141-4fa6-83e5-627976756902")
+	)
+	(wire
+		(pts
+			(xy 67.31 25.4) (xy 76.2 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435a9811-af03-4331-83b3-b55d41003672")
+	)
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 120.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c7a99d-2901-4b6e-bcfa-6174d81d1101")
+	)
+	(wire
+		(pts
+			(xy 195.58 101.6) (xy 195.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be30b1d-dd0d-4907-ace5-bcd98a3c7fe2")
+	)
+	(wire
+		(pts
+			(xy 130.81 86.36) (xy 146.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e976880-4218-49a1-a00c-7987127d74d3")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 207.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6913a2cb-335b-437f-8bb1-ffab5377c353")
+	)
+	(wire
+		(pts
+			(xy 157.48 88.9) (xy 193.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99495917-5736-418e-949c-654b2f1ce74f")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8cf94d-5187-4561-b063-5ee8af0b309d")
+	)
+	(wire
+		(pts
+			(xy 199.39 86.36) (xy 207.01 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3f78a1-6506-4e84-a0a6-3df9318b4243")
+	)
+	(wire
+		(pts
+			(xy 76.2 71.12) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4232aea-fcce-4a8d-8176-b55b73856f85")
+	)
+	(wire
+		(pts
+			(xy 146.05 86.36) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59d6f68-c728-4228-bf40-dc8d71458c13")
+	)
+	(wire
+		(pts
+			(xy 195.58 83.82) (xy 207.01 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6ec216-3e95-44e2-9dee-cba8e2a0f1b0")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 133.35 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48df960-1355-4715-925b-c57c17108b41")
+	)
+	(wire
+		(pts
+			(xy 133.35 71.12) (xy 76.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7134be2-2719-424d-839c-dc1fcd3a9cb3")
+	)
+	(wire
+		(pts
+			(xy 76.2 25.4) (xy 76.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcaa557c-476f-439b-bdee-6d14de558994")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 207.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7a196b-f0d3-433c-a569-8ac4d210fb52")
+	)
+	(wire
+		(pts
+			(xy 144.78 137.16) (xy 203.2 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2430869-b8b1-4a88-b954-19287214d52b")
+	)
+	(wire
+		(pts
+			(xy 199.39 123.19) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8e2feb-5a35-410c-9747-1f407fa94af7")
+	)
+	(wire
+		(pts
+			(xy 193.04 81.28) (xy 207.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcdf1547-7ee1-470d-8631-08111d6bc47f")
+	)
+	(global_label "DPAD_DOWN"
+		(shape input)
+		(at 207.01 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34567224-9490-4991-a9da-b99c5ece5762")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.2438 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_B"
+		(shape input)
+		(at 207.01 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53cd6fc0-8c6a-4a4b-b7a8-23c464d842c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.4295 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DPAD_LEFT"
+		(shape input)
+		(at 207.01 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8238998e-67e4-415c-a7cb-2d4241c269ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.0947 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_A"
+		(shape input)
+		(at 207.01 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1410816-cd02-4a5d-b824-55a150cda4ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.2481 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 67.31 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee4f17bb-b018-4704-ace0-4dfa6b005f08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.8172 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DPAD_UP"
+		(shape input)
+		(at 207.01 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f71c80df-9898-4e71-8b33-b5ae081ca0d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.4619 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DPAD_RIGHT"
+		(shape input)
+		(at 207.01 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fddd9aac-a504-45de-bc89-4f0c7247aa27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.3043 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 152.4 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ce86b8f-8a20-485c-b553-0693a85b556d")
+		(property "Reference" "SW3"
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "525ac08f-0792-4b84-bdfc-026b8799c994")
+		)
+		(pin "2"
+			(uuid "210ccabd-6fc1-42fc-bed3-bc7487962cbd")
+		)
+		(instances
+			(project "EPD_HUB_ESP32"
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf/e3052edb-0e0f-4e9a-aa1b-2864bfc9e4c1"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 125.73 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7792ae82-0eb8-4ab4-865b-e001ef58ce4f")
+		(property "Reference" "SW2"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bade877-008a-4820-a67c-72b203ca093f")
+		)
+		(pin "2"
+			(uuid "52dd9e2f-ac7f-4945-b459-33b5de69a242")
+		)
+		(instances
+			(project "EPD_HUB_ESP32"
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf/e3052edb-0e0f-4e9a-aa1b-2864bfc9e4c1"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 139.7 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90b1ef7d-04ca-4f91-afe2-c062b6c9ae12")
+		(property "Reference" "SW7"
+			(at 139.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 139.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+			(at 139.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f03320b8-7d69-42cd-8c13-f39cca4e79c6")
+		)
+		(pin "2"
+			(uuid "ee3d8cb8-2e7f-4ecc-8a96-de2c92b50281")
+		)
+		(instances
+			(project "EPD_HUB_ESP32"
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf/e3052edb-0e0f-4e9a-aa1b-2864bfc9e4c1"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 139.7 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95ad7506-4ead-4323-8834-27d20bf8a0df")
+		(property "Reference" "SW1"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b611b997-4836-4abe-9ada-2af89fad3822")
+		)
+		(pin "2"
+			(uuid "f9bf1ea5-3a6d-4c2a-bd23-4602a85dfbd8")
+		)
+		(instances
+			(project ""
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf/e3052edb-0e0f-4e9a-aa1b-2864bfc9e4c1"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 139.7 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a825d6d3-f82d-4f99-8aa4-3f68dc579a68")
+		(property "Reference" "SW5"
+			(at 139.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e7a41cd-e782-4d11-baf3-4ae6f662adba")
+		)
+		(pin "2"
+			(uuid "861d2475-09d5-4157-a89c-36e9d4450153")
+		)
+		(instances
+			(project "EPD_HUB_ESP32"
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf/e3052edb-0e0f-4e9a-aa1b-2864bfc9e4c1"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 139.7 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2c496d4-220c-4537-88b5-bc6c79c2774e")
+		(property "Reference" "SW4"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "febfff7c-473b-41a7-a153-004cc75297df")
+		)
+		(pin "2"
+			(uuid "f50b3e3e-00c7-4064-97b6-e081849fe431")
+		)
+		(instances
+			(project "EPD_HUB_ESP32"
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf/e3052edb-0e0f-4e9a-aa1b-2864bfc9e4c1"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

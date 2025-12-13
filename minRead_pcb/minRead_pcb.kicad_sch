@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2fbd4c8f-b784-4d80-b374-4947df99a9bf")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 199.39 120.65)
+		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09cb559b-edfe-4b7a-bf48-944d2ba9ecd0")
+		(property "Sheetname" "LiPo_In"
+			(at 199.39 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LiPo_In.kicad_sch"
+			(at 199.39 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EPD_HUB_ESP32"
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 180.34)
+		(size 43.18 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0bd409ce-8539-44c5-aa70-7b6f6cef2a87")
+		(property "Sheetname" "USBC_Power_Native"
+			(at 27.94 179.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usbc_power_native.kicad_sch"
+			(at 27.94 194.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EPD_HUB_ESP32"
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 41.91)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7323d124-70dc-4a99-bac5-bfbfb15521e9")
+		(property "Sheetname" "E_ink_HAT"
+			(at 170.18 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "E_ink_HAT.kicad_sch"
+			(at 170.18 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EPD_HUB_ESP32"
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 83.82)
+		(size 19.05 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e06d8ae4-2272-4f9e-88b3-b57c78ac9ffe")
+		(property "Sheetname" "ESP32_S3"
+			(at 198.12 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32_s3.kicad_sch"
+			(at 198.12 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EPD_HUB_ESP32"
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 41.91)
+		(size 22.86 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e3052edb-0e0f-4e9a-aa1b-2864bfc9e4c1")
+		(property "Sheetname" "Buttons"
+			(at 198.12 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 198.12 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EPD_HUB_ESP32"
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 76.2)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee7c40ad-5eef-4662-b283-9591c84f8044")
+		(property "Sheetname" "MicroSD_Out_SDMMC4bit"
+			(at 113.03 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 113.03 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EPD_HUB_ESP32"
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
