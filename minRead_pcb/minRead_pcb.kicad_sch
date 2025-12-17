@@ -40,7 +40,7 @@
 			)
 		)
 		(instances
-			(project "EPD_HUB_ESP32"
+			(project "minRead_pcb"
 				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
 					(page "7")
 				)
@@ -82,7 +82,7 @@
 			)
 		)
 		(instances
-			(project "EPD_HUB_ESP32"
+			(project "minRead_pcb"
 				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
 					(page "11")
 				)
@@ -124,7 +124,7 @@
 			)
 		)
 		(instances
-			(project "EPD_HUB_ESP32"
+			(project "minRead_pcb"
 				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
 					(page "4")
 				)
@@ -166,7 +166,7 @@
 			)
 		)
 		(instances
-			(project "EPD_HUB_ESP32"
+			(project "minRead_pcb"
 				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
 					(page "10")
 				)
@@ -208,7 +208,7 @@
 			)
 		)
 		(instances
-			(project "EPD_HUB_ESP32"
+			(project "minRead_pcb"
 				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
 					(page "8")
 				)
@@ -250,7 +250,7 @@
 			)
 		)
 		(instances
-			(project "EPD_HUB_ESP32"
+			(project "minRead_pcb"
 				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
 					(page "12")
 				)

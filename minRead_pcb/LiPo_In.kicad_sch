@@ -149,6 +149,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:IRLML6402"
 			(pin_names
 				(hide yes)
@@ -597,16 +721,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 93.98) (xy 106.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fdceffb-c40a-47be-851c-e9b0e9a0c04e")
-	)
-	(wire
-		(pts
 			(xy 143.51 83.82) (xy 143.51 90.17)
 		)
 		(stroke
@@ -614,6 +728,16 @@
 			(type default)
 		)
 		(uuid "6d1dc2f3-be16-4f93-a156-246d9f863714")
+	)
+	(wire
+		(pts
+			(xy 95.25 93.98) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72535a33-9414-47d7-ac6e-7b9d3d844536")
 	)
 	(wire
 		(pts
@@ -637,23 +761,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 106.68 88.9)
+			(xy 106.68 93.98) (xy 123.19 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c31d02cd-3d3e-4086-933b-4f236325d166")
-	)
-	(wire
-		(pts
-			(xy 106.68 88.9) (xy 105.41 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb48dddc-71f1-4ba4-ad78-1d7cc7fc6ba6")
+		(uuid "e6e19b19-c01e-47ef-875b-b64efae19d0e")
 	)
 	(wire
 		(pts
@@ -667,7 +781,7 @@
 	)
 	(global_label "VBat+"
 		(shape input)
-		(at 105.41 88.9 180)
+		(at 95.25 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -677,7 +791,7 @@
 		)
 		(uuid "b689582b-618f-4aaf-98c4-a32aa0e450fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.6191 88.9 0)
+			(at 86.4591 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,6 +1043,74 @@
 			(project ""
 				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf/09cb559b-edfe-4b7a-bf48-944d2ba9ecd0"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 102.87 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6d59858-7228-4f2f-a521-098df8750822")
+		(property "Reference" "R27"
+			(at 102.87 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 102.87 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 102.87 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c00f0c46-cd26-442a-a869-b497f075eb63")
+		)
+		(pin "2"
+			(uuid "2c2ee308-6c25-427d-a768-31a593eb17ab")
+		)
+		(instances
+			(project ""
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf/09cb559b-edfe-4b7a-bf48-944d2ba9ecd0"
+					(reference "R27")
 					(unit 1)
 				)
 			)

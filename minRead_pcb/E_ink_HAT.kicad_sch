@@ -3623,7 +3623,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 211.836 90.932 90)
 			(effects
 				(font
@@ -3676,15 +3676,15 @@
 	(symbol
 		(lib_id "Transistor_FET:Si1308EDL")
 		(at 66.04 59.69 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b450ad8-f41f-47fb-9b16-2ec2e4e528d7")
 		(property "Reference" "Q4"
-			(at 72.39 58.4199 0)
+			(at 72.39 60.9601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +3693,7 @@
 			)
 		)
 		(property "Value" "Si1308EDL"
-			(at 72.39 60.9599 0)
+			(at 72.39 58.4201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3702,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
-			(at 71.12 61.595 0)
+			(at 71.12 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3713,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/63399/si1308edl.pdf"
-			(at 71.12 63.5 0)
+			(at 71.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4321,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 211.836 127.254 90)
 			(effects
 				(font
@@ -4593,7 +4593,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 214.376 119.38 90)
 			(effects
 				(font
@@ -4864,7 +4864,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 211.836 141.986 90)
 			(effects
 				(font
@@ -4997,7 +4997,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 211.836 129.794 90)
 			(effects
 				(font

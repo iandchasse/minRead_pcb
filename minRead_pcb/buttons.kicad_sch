@@ -686,7 +686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 152.4 83.82 0)
 			(effects
 				(font
@@ -754,7 +754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 125.73 83.82 0)
 			(effects
 				(font
@@ -822,7 +822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
 			(at 139.7 132.08 0)
 			(effects
 				(font
@@ -890,7 +890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
 			(at 139.7 71.12 0)
 			(effects
 				(font
@@ -958,7 +958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
 			(at 139.7 118.11 0)
 			(effects
 				(font
@@ -1026,7 +1026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
 			(at 139.7 96.52 0)
 			(effects
 				(font
