@@ -4508,7 +4508,7 @@
 	)
 	(symbol
 		(lib_id "Diode:MBR0530")
-		(at 68.58 93.98 270)
+		(at 68.58 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4517,25 +4517,25 @@
 		(fields_autoplaced yes)
 		(uuid "71f12d0f-cb7c-4863-af4c-af8672523489")
 		(property "Reference" "D5"
-			(at 71.12 92.3924 90)
+			(at 71.12 93.0274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "MBR0530"
-			(at 71.12 94.9324 90)
+			(at 71.12 95.5674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 64.135 93.98 0)
+			(at 73.025 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -683,7 +683,7 @@
 		)
 		(uuid "466c1e6e-155a-4b70-80d6-f66b66436166")
 	)
-	(text "VCC\nGND"
+	(text "GND\nVCC"
 		(exclude_from_sim no)
 		(at 150.368 91.694 0)
 		(effects
@@ -694,20 +694,30 @@
 		(uuid "e983070d-58b8-46fe-b6cc-fca0671dbdeb")
 	)
 	(junction
-		(at 138.43 92.71)
+		(at 138.43 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0651e97-7c6a-44fe-bc85-272689066811")
+		(uuid "112b6785-def7-44c5-831e-e028385ac630")
 	)
 	(wire
 		(pts
-			(xy 123.19 83.82) (xy 143.51 83.82)
+			(xy 123.19 83.82) (xy 140.97 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0fc87367-72d0-45ab-bce4-52d95df906fb")
+	)
+	(wire
+		(pts
+			(xy 138.43 90.17) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df878e6-a3b0-46fe-b023-9f784de929c3")
 	)
 	(wire
 		(pts
@@ -721,7 +731,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 83.82) (xy 143.51 90.17)
+			(xy 140.97 83.82) (xy 140.97 92.71)
 		)
 		(stroke
 			(width 0)
@@ -741,23 +751,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 92.71) (xy 138.43 92.71)
+			(xy 140.97 92.71) (xy 143.51 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f00cd03-f00d-4c04-ba6d-00aa905952c9")
+		(uuid "b3726a17-bd80-45bd-8c9e-eb6c6887aaaa")
 	)
 	(wire
 		(pts
-			(xy 138.43 88.9) (xy 138.43 92.71)
+			(xy 143.51 90.17) (xy 138.43 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d63d3c7-8a15-4a14-a72c-c51e6d73c864")
+		(uuid "cff31a45-58b6-43c3-85a0-5da70cb246ed")
 	)
 	(wire
 		(pts
@@ -771,7 +781,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 92.71) (xy 138.43 107.95)
+			(xy 138.43 88.9) (xy 138.43 90.17)
 		)
 		(stroke
 			(width 0)

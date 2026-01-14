@@ -48,7 +48,7 @@
 		)
 	)
 	(sheet
-		(at 27.94 180.34)
+		(at 111.76 118.11)
 		(size 43.18 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "0bd409ce-8539-44c5-aa70-7b6f6cef2a87")
 		(property "Sheetname" "USBC_Power_Native"
-			(at 27.94 179.6284 0)
+			(at 111.76 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "usbc_power_native.kicad_sch"
-			(at 27.94 194.8946 0)
+			(at 111.76 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
